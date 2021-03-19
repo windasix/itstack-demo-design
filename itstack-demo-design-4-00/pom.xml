@@ -11,5 +11,9 @@
 
     <artifactId>itstack-demo-design-4-00</artifactId>
 
+    <groupId>org.itstack</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>itstack-demo-design-4-00</name>
+
 
 </project>
