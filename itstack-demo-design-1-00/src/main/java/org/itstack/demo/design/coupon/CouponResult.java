@@ -1,5 +1,8 @@
 package org.itstack.demo.design.coupon;
 
+import lombok.Data;
+
+@Data
 public class CouponResult {
 
     private String code; // 编码
@@ -10,19 +13,4 @@ public class CouponResult {
         this.info = info;
     }
 
-    public String getCode() {
-        return code;
-    }
-
-    public void setCode(String code) {
-        this.code = code;
-    }
-
-    public String getInfo() {
-        return info;
-    }
-
-    public void setInfo(String info) {
-        this.info = info;
-    }
 }
